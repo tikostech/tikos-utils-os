@@ -1,0 +1,5 @@
+pycuda
+numpy
+setuptools
+wheel
+twine
