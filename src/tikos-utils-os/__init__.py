@@ -6,4 +6,4 @@ It processes the element-wise operations in batches, ensuring large tensors in s
 """
 from .tutils import multiply, divide
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
