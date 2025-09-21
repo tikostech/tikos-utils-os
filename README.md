@@ -1,6 +1,5 @@
-# tikos-utils-os
 # Open Tikos Utilities: (tikos-utils-os)
-# CUDA Batched Tensor Operations
+## CUDA Batched Tensor Operations
 A PyPI package that leverages **PyCUDA** for memory-efficient, element-wise tensor operations with unequal dimensions (multiplication and division) on NVIDIA GPUs.
 
 This package is designed for large tensors that may not fit entirely in GPU VRAM. It processes the element-wise operations in slices (batches), ensuring that memory usage remains predictable and constrained. It implicitly handles broadcasting rules similar to NumPy, padding smaller tensors to match the shape of larger ones during the operation.
